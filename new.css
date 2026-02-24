@@ -12,6 +12,47 @@ html {
 body {
     background: linear-gradient(to right, #6e4c57, #494972);
     color: #f4f4f4;
+    padding-top: 80px;
+}
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+.logo span {
+    background: linear-gradient(to left, rgb(212, 140, 152), rgb(247, 98, 98));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f4f4f4;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffb6c1;
 }
 
 /* HERO SECTION */
@@ -182,4 +223,5 @@ section {
     .skill-tags {
         text-align: center;
     }
+
 }
