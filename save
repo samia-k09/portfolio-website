@@ -4,19 +4,10 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="new.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-    <nav class="navbar">
-    <div class="logo"><span>Samia Khan</span> </div>
-    <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-    <!-- HERO SECTION -->
+
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-text">
             <h1>Hi there, I’m <span>Samia Khan</span></h1>
@@ -29,10 +20,9 @@
         </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id= "about" class="about fade-up">
-        <h2 class="section-title">About Me</h2>
-
+    <!-- About -->
+    <section class="about">
+        <h2>About Me</h2>
         <div class="cards">
             <div class="card">
                 <h3>Who I Am</h3>
@@ -51,23 +41,25 @@
         </div>
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="skills fade-up">
-        <h2 class="section-title">Skills</h2>
-
+    <!-- Skills -->
+    <section class="skills">
+        <h2>Skills</h2>
         <div class="skill-tags">
             <span>HTML</span>
             <span>CSS</span>
             <span>Java</span>
             <span>JavaScript</span>
             <span>DSA</span>
+           
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact fade-up">
-        <h2 class="section-title">Let’s Bloom Together</h2>
+    
+               
 
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Let’s Bloom Together</h2>
         <form>
             <input type="text" placeholder="Your Name">
             <input type="email" placeholder="Your Email">
@@ -76,6 +68,5 @@
         </form>
     </section>
 
-    <script src="script.js"></script>
 </body>
 </html>
